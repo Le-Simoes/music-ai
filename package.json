@@ -1,6 +1,6 @@
 {
   "name": "@lesimoes.dev/music-ai",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Non-official [Music AI](https://music.ai/docs/getting-started/introduction/) (Before called Moises AI) API wrapper package with Typescript support",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
