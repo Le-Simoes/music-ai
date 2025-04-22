@@ -1,21 +1,17 @@
-# moises-node
+# music-ai
 
 Non-official [Music AI](https://music.ai/docs/getting-started/introduction/) (Before called Moises AI) API wrapper package with Typescript support
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3e0b2e2d5b9d4157a26d7faebe3f5a6f)](https://app.codacy.com/gh/leandrosimoes/moises/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![npm version](https://badge.fury.io/js/moises-node.svg)](https://badge.fury.io/js/moises-node)
-[![Node.js Package](https://github.com/leandrosimoes/moises/actions/workflows/npmpublish.yml/badge.svg)](https://github.com/leandrosimoes/moises/actions/workflows/npmpublish.yml)
-[<img src="https://img.shields.io/badge/slack-@lesimoes/help-blue.svg?logo=slack">](https://lesimoes.slack.com/messages/C05GZ1F8P44) 
-[<img src="https://img.shields.io/badge/discord-@lesimoes/help-blue.svg?logo=discord">](https://discord.gg/wSr8t8p4Vr) 
 
 
 ## Install
 
-`yarn add moises-node`
+`yarn add @lesimoes.dev/music-ai`
 
 or
 
-`npm i moises-node`
+`npm i @lesimoes.dev/music-ai`
 
 ## How to use it?
 
@@ -28,7 +24,7 @@ import {
     ProcessFileOptions,
     JobStatus,
     DownloadResult
-} from 'moises-node'
+} from '@lesimoes.dev/music-ai'
 
 // types exported by the library
 export type ProcessStatus =

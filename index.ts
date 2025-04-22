@@ -4,7 +4,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import PQueue from 'p-queue'
 
-import { MOISES_API_BASE_URL } from './src/constants/index.js'
+import { MUSIC_AI_API_BASE_URL } from './src/constants/index.js'
 import {
     sleep,
     extractFileExtensionFromFileUrl,
@@ -134,7 +134,7 @@ let onProgressInternal = (
 }
 
 async function apiCall({ method, path, data = {}, apiKey }: ApiCallOptions) {
-    const url = `${MOISES_API_BASE_URL}${path}`
+    const url = `${MUSIC_AI_API_BASE_URL}${path}`
 
     const headers = {
         'Content-Type': 'application/json',
