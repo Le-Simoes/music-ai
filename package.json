@@ -1,7 +1,7 @@
 {
-  "name": "moises-node",
+  "name": "@lesimoes.dev/music-ai",
   "version": "1.0.6",
-  "description": "Non-official Moises AI (https://developer.moises.ai/) API wrapper package with Typescript support",
+  "description": "Non-official [Music AI](https://music.ai/docs/getting-started/introduction/) (Before called Moises AI) API wrapper package with Typescript support",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "type": "module",
@@ -14,12 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leandrosimoes/moises.git",
-    "baseUrl": "https://github.com/leandrosimoes/moises"
+    "url": "git+https://github.com/Le-Simoes/music-ai.git",
+    "baseUrl": "https://github.com/Le-Simoes/music-ai"
   },
   "keywords": [
     "moises",
     "moisesai",
+    "music",
+    "musicai",
     "ai",
     "track",
     "separation",

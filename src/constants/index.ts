@@ -1,1 +1,1 @@
-export const MOISES_API_BASE_URL = 'https://api.music.ai'
+export const MUSIC_AI_API_BASE_URL = 'https://api.music.ai'
